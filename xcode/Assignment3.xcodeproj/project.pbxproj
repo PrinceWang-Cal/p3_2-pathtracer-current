@@ -1,0 +1,2073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0A39B9E90F0C44BEB5342DB9 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46CE8958C1FA43CDB91220B9 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				2B8F8D605BF5F9E381359C91 /* Generate CGL/deps/glfw/CMakeFiles/uninstall */,
+			);
+			dependencies = (
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		6F53066F05B645519739261E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6E0D4B9759B94E63BEAFA9B8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4F80012A3E420904EEC210FD /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				0B09EF077251493E9BFCBCD1 /* PBXTargetDependency */,
+				44C7B46FB2C440D2AD6FFCBB /* PBXTargetDependency */,
+				C9EF6125BFB648A8A63BAAF3 /* PBXTargetDependency */,
+				383C03036CEF4FA0B06B1A86 /* PBXTargetDependency */,
+				A916E29D310C42FE89F65FE9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		7DFC0C77E2CE4E3687731FE1 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 64E4EB2A5B3C4DD1B3A2A490 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				0B1629FC02F946D293AA1356 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		8860EB2F0FC3406793A91862 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48D6504A28DC4276838FDC62 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E9C38B2DAA3D74AFF1B27D52 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0035757A2E584D9992C0615C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 39E2E1ADD23D4D00B27D477E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/CMakeLists.txt */; };
+		01DC478708024472B0E63D0B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector2D.cpp */ = {isa = PBXBuildFile; fileRef = F4318C1997B74A04A22D65B5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector2D.cpp */; };
+		0757F73D4A424533812E3896 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/polymesh_info.h */ = {isa = PBXBuildFile; fileRef = 3EB734376E8C44C98C1A9B21 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/polymesh_info.h */; };
+		095088D809134078BF8DD2F9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/sphere.h */ = {isa = PBXBuildFile; fileRef = 0760D79D5B80435CB218F490 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/sphere.h */; };
+		0B10230ABD0E447C9F5D6CDA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/lodepng.h */ = {isa = PBXBuildFile; fileRef = 03BF3E3942D4421F87FE3954 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/lodepng.h */; };
+		0B46DB953FC246A59BAD7CE5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/base64.cpp */ = {isa = PBXBuildFile; fileRef = 4028DD7041F64781B316A72E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/base64.cpp */; };
+		0BC02DFED2FE413A9CE3B1B7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/scene.h */ = {isa = PBXBuildFile; fileRef = 0B7D7A50085948CD87BE3F12 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/scene.h */; };
+		0C0F2A80E7DD4B8D91C1C771 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/application.cpp */ = {isa = PBXBuildFile; fileRef = 6B443D9028BD44E28C566F6B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/application.cpp */; };
+		0E89C06CB1DA4A279450C76A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/material_info.h */ = {isa = PBXBuildFile; fileRef = 866BF5E108B346B89568B215 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/material_info.h */; };
+		1074FED7CB2344878B846F86 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada.cpp */ = {isa = PBXBuildFile; fileRef = 5268FD00D57B486D96CA4D75 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada.cpp */; };
+		11B4B84DDD384F8787EA0803 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 576B40A762B44284BCA2856C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		14357EDA789C4C7B9CE445F4 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 7C5FF7859337460BB6725237 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/nsgl_context.h */; };
+		14F9E9DCCBB848378007960B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/image.h */ = {isa = PBXBuildFile; fileRef = BCE4397C382548F18C9A87AA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/image.h */; };
+		177BD5CCEFAC4A3489EEFE0C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/quaternion.cpp */ = {isa = PBXBuildFile; fileRef = C5BF1B35259F440BAFE818A2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/quaternion.cpp */; };
+		1BFAEACE0B384722A518113A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = FB14075C170B422E948F05AA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		1D84A251FBA945D793A4D9F1 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 75080318AF134489AB6B5163 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/CMakeLists.txt */; };
+		21DDD2958B5147CBA1A723AA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/pathtracer.h */ = {isa = PBXBuildFile; fileRef = A11B2BE3C57447D3A2DF6853 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/pathtracer.h */; };
+		23CA120E8A554F3CA890A809 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/backends/imgui_impl_opengl2.cpp */ = {isa = PBXBuildFile; fileRef = CA1BDE8DD6D6412BBD2DC404 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/backends/imgui_impl_opengl2.cpp */; };
+		2521EE6105CE480E859B2679 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/meshEdit.cpp */ = {isa = PBXBuildFile; fileRef = A16EF41601D04A8FA8D7F676 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/meshEdit.cpp */; };
+		2589A86D49B349408736EFA0 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/environment_light.h */ = {isa = PBXBuildFile; fileRef = 1ED02012B43C4F0DB3ABBD5F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/environment_light.h */; };
+		26D984A019C64195B52B6B5F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/material_info.cpp */ = {isa = PBXBuildFile; fileRef = 98C7E3C2AE4C4460BB2ED0BB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/material_info.cpp */; };
+		28DEABAB12464186AE541718 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada.h */ = {isa = PBXBuildFile; fileRef = 25C76C6DAD89406581ED96AE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada.h */; };
+		2AA495A592D74236A412F2D1 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/glew.c */ = {isa = PBXBuildFile; fileRef = 2D64825D95AE4B129C0CBBE1 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/glew.c */; };
+		2B43AD2A547C4B72B341D80F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 1E9536514A854A20831A395B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		30D8DA3CCEAB4E169E032FE7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/visualinfo.c */ = {isa = PBXBuildFile; fileRef = AEC98B6553E04E0688F7B7C8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/visualinfo.c */; };
+		30F7D6DC13994984A788BCDC /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/sampler.h */ = {isa = PBXBuildFile; fileRef = 40DC2552C18D48B497EDADC2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/sampler.h */; };
+		3106CF4DCFF64538B9C0642E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/color.cpp */ = {isa = PBXBuildFile; fileRef = 8DB1543D641C4AAEA9E01FBB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/color.cpp */; };
+		326515F6484048218EDB63F7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/advanced_bsdf.cpp */ = {isa = PBXBuildFile; fileRef = 956F6DC8217A46F6830C1279 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/advanced_bsdf.cpp */; };
+		32C5D76237E34B81AE21A2BA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/sphere.cpp */ = {isa = PBXBuildFile; fileRef = 1DC2DDFF6B414DC08271973D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/sphere.cpp */; };
+		334A8DBB418845499CE92C2A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/random_util.h */ = {isa = PBXBuildFile; fileRef = F37EE6AFDE42461381486530 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/random_util.h */; };
+		34D7DBADADF544E3B331965D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/camera_info.h */ = {isa = PBXBuildFile; fileRef = 1C41826439794C9CBDE261BE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/camera_info.h */; };
+		3604E3BBDED54BD7B936EEE2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector3D.cpp */ = {isa = PBXBuildFile; fileRef = D62D99B739F943A39E567218 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector3D.cpp */; };
+		3A1686616CA8486F9EAF1157 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/lodepng.cpp */ = {isa = PBXBuildFile; fileRef = 625E36A518464486BBC460A3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/lodepng.cpp */; };
+		3A4D4BC919CC49F4912AD2D6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/scene.cpp */ = {isa = PBXBuildFile; fileRef = 86E35707FD7F497FA8050D9B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/scene.cpp */; };
+		3D298DC61E5A473999939A94 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada_info.h */ = {isa = PBXBuildFile; fileRef = 3DD9F3C2E32C447D9A4EC6D5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada_info.h */; };
+		3FEA63C79F01461CBF510207 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/application.h */ = {isa = PBXBuildFile; fileRef = FE2AB056C37C49EDB2D95F17 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/application.h */; };
+		40330A75B5414E0096DE207F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = D1A9D29DBA3A453AA6FAAD75 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_platform.h */; };
+		45CC539965EC4E98AF8BFDED /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 7CFADD9392744BFA8B92B678 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/posix_thread.c */; };
+		46AA6FDA6BEA4EB082ABE158 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/matrix4x4.cpp */ = {isa = PBXBuildFile; fileRef = 61074E0997B7419DA8D87EC2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/matrix4x4.cpp */; };
+		53E294C90AB34740A719FBAA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_widgets.cpp */ = {isa = PBXBuildFile; fileRef = 87576C15F6C54053933EF7DF /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_widgets.cpp */; };
+		53E9469AFAB6416A8CCEB913 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/spot_light.h */ = {isa = PBXBuildFile; fileRef = 6A922ED74B9049D38FA1AFE2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/spot_light.h */; };
+		54B2DC3FF54847F0A8DCC73C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = DDEA7C76898B4BF5B6765853 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_monitor.m */; };
+		55BBF813AEC24D3AA3F06748 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/environment_light.h */ = {isa = PBXBuildFile; fileRef = 17A1F0096F604DAD8457AAC3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/environment_light.h */; };
+		5C456FE2D2FE4F7398879A54 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/environment_light.cpp */ = {isa = PBXBuildFile; fileRef = 0891E6764E5A4FDF8F9934EE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/environment_light.cpp */; };
+		5EFF0105FBB546549C50BC57 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/complex.cpp */ = {isa = PBXBuildFile; fileRef = 3336B29209BF4FAF998911E6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/complex.cpp */; };
+		64852443F8D64969BA4FF0C8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/camera_lens.cpp */ = {isa = PBXBuildFile; fileRef = 9EF68DF3A48F4BDFA7DD5CBC /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/camera_lens.cpp */; };
+		69EC46E2C9DF4C278E794E6F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/material.h */ = {isa = PBXBuildFile; fileRef = F80BD64631B74B88A27B4366 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/material.h */; };
+		6A6BFB39D73248F181BFEF47 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/intersection.h */ = {isa = PBXBuildFile; fileRef = 13D8FCEA354C4281A77CA32F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/intersection.h */; };
+		6DB67A1A71FE4D9FBB2EB87F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 4F06D35E80134296AAB20AF3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.h */; };
+		6DE89685E5F04B40967BB8BA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/osdtext.cpp */ = {isa = PBXBuildFile; fileRef = 46A9D848FD1C4B9C828BAD2D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/osdtext.cpp */; };
+		70987761A74A4E71BA1BA5A2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 50B93D1727EB4AC69D99D607 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CMakeLists.txt */; };
+		748A7C5793BC475BAC37E7A5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/osdfont.cpp */ = {isa = PBXBuildFile; fileRef = 1C3E01036FF54C258D089F4E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/osdfont.cpp */; };
+		749AF2F05D0649E6A2C876FE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/triangle.h */ = {isa = PBXBuildFile; fileRef = D03728610ECD4763BB026F12 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/triangle.h */; };
+		7540351C4331444C9F382A0D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 7441F50BCDF04276BA0200E8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3.h */; };
+		79D16B7109C24D4BB4C09311 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/path.cpp */ = {isa = PBXBuildFile; fileRef = EEEB83096BD8470BB7F81E22 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/path.cpp */; };
+		7A1363648BAE4B078061970A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = F9EA79E847BB4477868DD7EF /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_init.m */; };
+		7A4E5873543143138A4ABEF5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = F418D297A2AC470085595D6A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		7F7433430B5E4A01AD99748F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/work_queue.h */ = {isa = PBXBuildFile; fileRef = E773F83159BE4C9A909E1A70 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/work_queue.h */; };
+		7FE95D8D1AB84289B34E1FC3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = A8D7A0BB21B3440B9C90845A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3native.h */; };
+		8060777B68644CB4A0433F98 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/object.h */ = {isa = PBXBuildFile; fileRef = DF938FAC840C48FDB80A57CD /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/object.h */; };
+		833EF4A70FFA4E77A27B675D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/ambient_light.h */ = {isa = PBXBuildFile; fileRef = D56874B93C874E81AFB96A1B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/ambient_light.h */; };
+		86097A826D494A5497681B79 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 7E8A4B4620634C0590FE7FF3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_time.c */; };
+		8613219DC87E41FB8FD4C528 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/ray.h */ = {isa = PBXBuildFile; fileRef = A6F755A26748401D9A83A911 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/ray.h */; };
+		862CEB8616B14337A8CFCAE5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/bvh.h */ = {isa = PBXBuildFile; fileRef = 406D2D781D144A18853B5259 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/bvh.h */; };
+		884711019801459199A0137A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 3378BFDA37344D71A86C103D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_window.m */; };
+		8A770BD76E51445C865408A7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 6F28B2D0BE93483BA1BC840B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/tinyxml2.cpp */; };
+		8DBC274C3B004062A57D0844 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/primitive.h */ = {isa = PBXBuildFile; fileRef = CD7D1530BF084A1FA1B19181 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/primitive.h */; };
+		8DF74B5469C84951A8C74B60 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/sphere.h */ = {isa = PBXBuildFile; fileRef = 05EFE145FD204120B4C7EBF8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/sphere.h */; };
+		8E04ED99F4DD41EDBF7A4E07 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 3CB95ACF0B284C98829DF22F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/posix_thread.h */; };
+		8E4BDD3772AA428285A6DD9C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/renderer.h */ = {isa = PBXBuildFile; fileRef = 4A86C35E394C4C1D93AA352C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/renderer.h */; };
+		8E57A14DBC6F4D4797922817 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/raytraced_renderer.h */ = {isa = PBXBuildFile; fileRef = 06BDA88AC8F743FF9BA422F0 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/raytraced_renderer.h */; };
+		8F12C45537484A88A8F475BE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/visual_debugger.cpp */ = {isa = PBXBuildFile; fileRef = 3F410AA2C9C341FB8ADA71BB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/visual_debugger.cpp */; };
+		8F1ECF35B2F0423385D28979 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/sphere_drawing.cpp */ = {isa = PBXBuildFile; fileRef = 1F44F630B575469CA7710E4B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/sphere_drawing.cpp */; };
+		948C3A9734BE4462BA7DAE55 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/point_light.h */ = {isa = PBXBuildFile; fileRef = 7EDF8BF46DE442A5A9239BCD /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/point_light.h */; };
+		956C58768562444D90B45226 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/matrix3x3.cpp */ = {isa = PBXBuildFile; fileRef = D9BE0E1E962E49EC894D696B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/matrix3x3.cpp */; };
+		9E3F0F4E8A23437394C13B68 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/backends/imgui_impl_glfw.cpp */ = {isa = PBXBuildFile; fileRef = D29BB0649896465196818671 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/backends/imgui_impl_glfw.cpp */; };
+		A3197CF605D34C77BF7672BA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/light_info.cpp */ = {isa = PBXBuildFile; fileRef = 07C8C5DC0A4C4306903C4396 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/light_info.cpp */; };
+		A3D81D476DD7421595A850D1 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/polymesh_info.cpp */ = {isa = PBXBuildFile; fileRef = 63F5D1B60A3E431BBAD9CB26 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/polymesh_info.cpp */; };
+		A3F2D207284A43E195B6453D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/sphere_drawing.h */ = {isa = PBXBuildFile; fileRef = BAEE4E4DA88F4ABFB4F98C55 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/sphere_drawing.h */; };
+		A4906CC1CFE44637B9DEDAB6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/raytraced_renderer.cpp */ = {isa = PBXBuildFile; fileRef = 95F8721615B64470921EE5D7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/raytraced_renderer.cpp */; };
+		A64C41746E0B4BC4AFB401CE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_tables.cpp */ = {isa = PBXBuildFile; fileRef = 77ED0F03A2114C21921F9907 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_tables.cpp */; };
+		A6AE332B6D60411485CA7D01 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/glewinfo.c */ = {isa = PBXBuildFile; fileRef = 7E4B58B06EDB486E827B272F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/glewinfo.c */; };
+		A95264CCC1554DA5AE2B7AA1 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9B808ED1FA9F461D982C314B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/CMakeLists.txt */; };
+		AA5C0FBD46744DF0B168F5BD /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 9A3349C0AFA24D88B07A3496 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/internal.h */; };
+		AFEC75E1186D48F08FF53892 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/mutablePriorityQueue.h */ = {isa = PBXBuildFile; fileRef = B8B9B1E799054E269E05F1F9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/mutablePriorityQueue.h */; };
+		B3112B95A3E346A6A8D11041 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = D3D0F7691BB942F286BAE48A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/egl_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		B63154F8718947FB9D707ACE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/bsdf.h */ = {isa = PBXBuildFile; fileRef = 042D1BA407194758B4F7925F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/bsdf.h */; };
+		B8BEB3D51AFE477BAB15BB26 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh_view.h */ = {isa = PBXBuildFile; fileRef = C463710435B14694AEA7D645 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh_view.h */; };
+		BB4F3564F0A2412FBCEFD09C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/light_info.h */ = {isa = PBXBuildFile; fileRef = 6E0EF6222C0141D5A8A0219A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/light_info.h */; };
+		BBC6A047723E4F36B739A96D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/lodepng.cpp */ = {isa = PBXBuildFile; fileRef = B63E84D7EE16426788A7EAC5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/lodepng.cpp */; };
+		BE83C7C740B04D74BB31AFD4 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/directional_light.h */ = {isa = PBXBuildFile; fileRef = 5D5647F3310B4AFFBEC19281 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/directional_light.h */; };
+		BED21670488F4938AD0A880A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/halfEdgeMesh.h */ = {isa = PBXBuildFile; fileRef = 7A3F2B5A996A4BB69D204E3C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/halfEdgeMesh.h */; };
+		BED9A7FDED224D159546472E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/sphere_info.h */ = {isa = PBXBuildFile; fileRef = D80F363F034F4C2890E008A8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/sphere_info.h */; };
+		BEE890A4BDEB47229B6C0669 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = C5E3CDD8ED074662BC01A4A7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		C6C4BF6792A24A99A6B303F3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/camera_info.cpp */ = {isa = PBXBuildFile; fileRef = 164DFBE6290E434EBF890C9C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/camera_info.cpp */; };
+		C79507CC7A234F779B672609 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 842B9863D24D479C8B0411B8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src/glfw_config.h */; };
+		CDC1E1C2B36C42639A3858C9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/sphere_info.cpp */ = {isa = PBXBuildFile; fileRef = 1B2D806378004E1B9E31B7FF /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/sphere_info.cpp */; };
+		D117C2592FFF48E9B21CDFCE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = DA92AD36D069479AB624B512 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		D14C626AA3E640C89C89E8FE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/viewer.cpp */ = {isa = PBXBuildFile; fileRef = 3942E9E879E04C50BFEAC7E7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/viewer.cpp */; };
+		D2B0E3C971F04728B36E5C06 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 1A38D25A60BD47C48D8CD06D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.m */; };
+		D51A040CFE8C490BB27B2661 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/light.h */ = {isa = PBXBuildFile; fileRef = FB88BBAB3BB746979C7062DB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/light.h */; };
+		D528DEF4E0CA40C3915785D8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = C2C75B83DCBE463DAF0A4656 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/egl_context.h */; };
+		D87A190138BA4F289CEFA862 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/meshEdit.h */ = {isa = PBXBuildFile; fileRef = 453376F60CC0468FAA6CBFEE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/meshEdit.h */; };
+		D9557E90F1FE41F8BE2F9E8C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/main.cpp */ = {isa = PBXBuildFile; fileRef = 7D2436C6275A448EAD9122CC /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/main.cpp */; };
+		E17288905FBD4B2FA6C071A3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 38CA3EAF5470467380E743E6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/nsgl_context.m */; };
+		E6035EE09B214D08B5BEEA05 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/bbox.h */ = {isa = PBXBuildFile; fileRef = 930CE4D1A0EB4F8C840C9051 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/bbox.h */; };
+		E8E566266CF34650B32A5B80 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/scene.h */ = {isa = PBXBuildFile; fileRef = 828ADF3B25B541F3991E34C8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/scene.h */; };
+		ED37A0AA50ED4A5BA8A646BB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 041172F3FA5241009DEE5E4F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/mappings.h */; };
+		EDE5CA87AF414CB0B202618B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh.h */ = {isa = PBXBuildFile; fileRef = 3CCCD89D10674F0A86FB2245 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh.h */; };
+		EF72B784ABE4486C9FC8702E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/area_light.h */ = {isa = PBXBuildFile; fileRef = D598D45D78C24C90AB062C63 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/area_light.h */; };
+		F05C2518FED544E8A9D08B22 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = A23002F5D4AF4A798C0F3DE6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/osmesa_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		F099363D1F344C3D98E3DCD6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/camera.h */ = {isa = PBXBuildFile; fileRef = 62639F00FE5E42A4BA7701E2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/camera.h */; };
+		F533A712CDB34771A6871DCA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/aggregate.h */ = {isa = PBXBuildFile; fileRef = BA13662EBF3442AAA018558F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/aggregate.h */; };
+		F5D525C86C96451FB82FE5A3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh.cpp */ = {isa = PBXBuildFile; fileRef = 8BF51B9632B14C8384875112 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh.cpp */; };
+		F6F7FD0C54B746FC85512BFE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = 732E45068A324F35ABAB2799 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/osmesa_context.h */; };
+		F7265502B3044252BEEF92AE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/draw_style.h */ = {isa = PBXBuildFile; fileRef = B09CEC5909C1483C87E3F1E4 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/draw_style.h */; };
+		F77C47C2767446B0B233E2D8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/halfEdgeMesh.cpp */ = {isa = PBXBuildFile; fileRef = 8014588960E04964A7F8DEE0 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/halfEdgeMesh.cpp */; };
+		F996CFCCCACC4D318D858397 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector4D.cpp */ = {isa = PBXBuildFile; fileRef = 75C58D8825774003B610657E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector4D.cpp */; };
+		FB00D7A4567541F0B7ACE443 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/object.cpp */ = {isa = PBXBuildFile; fileRef = 37243541D6214DD595ABF256 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/object.cpp */; };
+		FC93F8F16F5F4C5F916A6CB3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/sampler.cpp */ = {isa = PBXBuildFile; fileRef = FF225A17B13E4473A7AEC270 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/sampler.cpp */; };
+		FF1D43318AF145EA8F6B3501 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_draw.cpp */ = {isa = PBXBuildFile; fileRef = 9ED108B99AF843BD8A44B583 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_draw.cpp */; };
+		FFA61C8D01B34AD9AB3B18EF /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui.cpp */ = {isa = PBXBuildFile; fileRef = BD8865A353FD4A8FA2F067E9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0C16A87E9CB041A7B6FD7077 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		3673A2A347A0412BB22DC9E1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		3C6AA7952BCA44D29C05400B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9C0FFBB7712B4D808CCB8856 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		282F813847EA4CA6A6A0D6D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EB715B39E8044A88AFAE426;
+			remoteInfo = glfw;
+		};
+		35C9E75C0B9E4248BA9703DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EB715B39E8044A88AFAE426;
+			remoteInfo = glfw;
+		};
+		50B5CED2D0DF4DB1B8536836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8860EB2F0FC3406793A91862;
+			remoteInfo = ZERO_CHECK;
+		};
+		5A60A6C69E964567BD16AF58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EB715B39E8044A88AFAE426;
+			remoteInfo = glfw;
+		};
+		5FD96F8D0300406A81526C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD04305504FF45F191A169E2;
+			remoteInfo = CGL;
+		};
+		5FE39037EA1E445AA3B1309A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE32D02E947B4EFAB0A4D3CE;
+			remoteInfo = glew;
+		};
+		AF547969ADD24B5DA6CB1ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F53066F05B645519739261E;
+			remoteInfo = ALL_BUILD;
+		};
+		BB8B4D2C04834F04AF3CC0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8BCC91D06E4B8CA9DA6D34;
+			remoteInfo = pathtracer;
+		};
+		BEC14FFC2C0F4EB0A8127837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE32D02E947B4EFAB0A4D3CE;
+			remoteInfo = glew;
+		};
+		C4C3FED969F64034B30A4922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE32D02E947B4EFAB0A4D3CE;
+			remoteInfo = glew;
+		};
+		C51BEA272ED94008B4927A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8860EB2F0FC3406793A91862;
+			remoteInfo = ZERO_CHECK;
+		};
+		FC7DA71E621E4825B2C03491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E37E583F7E4E4E95D4569E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD04305504FF45F191A169E2;
+			remoteInfo = CGL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BF3E3942D4421F87FE3954 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/lodepng.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lodepng.h; path = src/util/lodepng.h; sourceTree = SOURCE_ROOT; };
+		03D293930E7349AEA2A472B5 /* glew */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglew.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		041172F3FA5241009DEE5E4F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = CGL/deps/glfw/src/mappings.h; sourceTree = SOURCE_ROOT; };
+		042D1BA407194758B4F7925F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/bsdf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bsdf.h; path = src/pathtracer/bsdf.h; sourceTree = SOURCE_ROOT; };
+		05EFE145FD204120B4C7EBF8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/sphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sphere.h; path = src/scene/sphere.h; sourceTree = SOURCE_ROOT; };
+		06BDA88AC8F743FF9BA422F0 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/raytraced_renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = raytraced_renderer.h; path = src/pathtracer/raytraced_renderer.h; sourceTree = SOURCE_ROOT; };
+		0760D79D5B80435CB218F490 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/sphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sphere.h; path = src/scene/gl_scene/sphere.h; sourceTree = SOURCE_ROOT; };
+		07C8C5DC0A4C4306903C4396 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/light_info.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = light_info.cpp; path = src/scene/collada/light_info.cpp; sourceTree = SOURCE_ROOT; };
+		0891E6764E5A4FDF8F9934EE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/environment_light.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = environment_light.cpp; path = src/scene/environment_light.cpp; sourceTree = SOURCE_ROOT; };
+		0B7D7A50085948CD87BE3F12 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/scene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scene.h; path = src/scene/scene.h; sourceTree = SOURCE_ROOT; };
+		13D8FCEA354C4281A77CA32F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/intersection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = intersection.h; path = src/pathtracer/intersection.h; sourceTree = SOURCE_ROOT; };
+		164DFBE6290E434EBF890C9C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/camera_info.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera_info.cpp; path = src/scene/collada/camera_info.cpp; sourceTree = SOURCE_ROOT; };
+		17A1F0096F604DAD8457AAC3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/environment_light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = environment_light.h; path = src/scene/gl_scene/environment_light.h; sourceTree = SOURCE_ROOT; };
+		1A38D25A60BD47C48D8CD06D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = CGL/deps/glfw/src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		1B2D806378004E1B9E31B7FF /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/sphere_info.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sphere_info.cpp; path = src/scene/collada/sphere_info.cpp; sourceTree = SOURCE_ROOT; };
+		1C3E01036FF54C258D089F4E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/osdfont.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = osdfont.cpp; path = CGL/src/osdfont.cpp; sourceTree = SOURCE_ROOT; };
+		1C41826439794C9CBDE261BE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/camera_info.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera_info.h; path = src/scene/collada/camera_info.h; sourceTree = SOURCE_ROOT; };
+		1D4E92BE1B4B4045963033BA /* pathtracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = pathtracer; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC2DDFF6B414DC08271973D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/sphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sphere.cpp; path = src/scene/gl_scene/sphere.cpp; sourceTree = SOURCE_ROOT; };
+		1E9536514A854A20831A395B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = CGL/deps/glfw/src/window.c; sourceTree = SOURCE_ROOT; };
+		1ED02012B43C4F0DB3ABBD5F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/environment_light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = environment_light.h; path = src/scene/environment_light.h; sourceTree = SOURCE_ROOT; };
+		1F44F630B575469CA7710E4B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/sphere_drawing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sphere_drawing.cpp; path = src/util/sphere_drawing.cpp; sourceTree = SOURCE_ROOT; };
+		25C76C6DAD89406581ED96AE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = collada.h; path = src/scene/collada/collada.h; sourceTree = SOURCE_ROOT; };
+		285A23425C7C4E3A9C4840FD /* CGL */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCGL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF03D9165744B288C2F1DFE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2D64825D95AE4B129C0CBBE1 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = CGL/deps/glew/src/glew.c; sourceTree = SOURCE_ROOT; };
+		3336B29209BF4FAF998911E6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/complex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = complex.cpp; path = CGL/src/complex.cpp; sourceTree = SOURCE_ROOT; };
+		3378BFDA37344D71A86C103D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = CGL/deps/glfw/src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		37243541D6214DD595ABF256 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = object.cpp; path = src/scene/object.cpp; sourceTree = SOURCE_ROOT; };
+		38CA3EAF5470467380E743E6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = CGL/deps/glfw/src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		3942E9E879E04C50BFEAC7E7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/viewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = viewer.cpp; path = CGL/src/viewer.cpp; sourceTree = SOURCE_ROOT; };
+		39E2E1ADD23D4D00B27D477E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/deps/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3CB95ACF0B284C98829DF22F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = CGL/deps/glfw/src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		3CCCD89D10674F0A86FB2245 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh.h; path = src/scene/gl_scene/mesh.h; sourceTree = SOURCE_ROOT; };
+		3DD9F3C2E32C447D9A4EC6D5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada_info.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = collada_info.h; path = src/scene/collada/collada_info.h; sourceTree = SOURCE_ROOT; };
+		3EB734376E8C44C98C1A9B21 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/polymesh_info.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = polymesh_info.h; path = src/scene/collada/polymesh_info.h; sourceTree = SOURCE_ROOT; };
+		3F410AA2C9C341FB8ADA71BB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/visual_debugger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = visual_debugger.cpp; path = src/application/visual_debugger.cpp; sourceTree = SOURCE_ROOT; };
+		4028DD7041F64781B316A72E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/base64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base64.cpp; path = CGL/src/base64.cpp; sourceTree = SOURCE_ROOT; };
+		406D2D781D144A18853B5259 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/bvh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bvh.h; path = src/scene/bvh.h; sourceTree = SOURCE_ROOT; };
+		40DC2552C18D48B497EDADC2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/sampler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sampler.h; path = src/pathtracer/sampler.h; sourceTree = SOURCE_ROOT; };
+		453376F60CC0468FAA6CBFEE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/meshEdit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = meshEdit.h; path = src/application/meshEdit.h; sourceTree = SOURCE_ROOT; };
+		46A9D848FD1C4B9C828BAD2D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/osdtext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = osdtext.cpp; path = CGL/src/osdtext.cpp; sourceTree = SOURCE_ROOT; };
+		4A86C35E394C4C1D93AA352C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = renderer.h; path = src/application/renderer.h; sourceTree = SOURCE_ROOT; };
+		4F06D35E80134296AAB20AF3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = CGL/deps/glfw/src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		50B93D1727EB4AC69D99D607 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5268FD00D57B486D96CA4D75 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = collada.cpp; path = src/scene/collada/collada.cpp; sourceTree = SOURCE_ROOT; };
+		56B825E0239048289FE7CC53 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/deps/glfw/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		576B40A762B44284BCA2856C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = CGL/deps/glfw/src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		5D5647F3310B4AFFBEC19281 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/directional_light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = directional_light.h; path = src/scene/gl_scene/directional_light.h; sourceTree = SOURCE_ROOT; };
+		61074E0997B7419DA8D87EC2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/matrix4x4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix4x4.cpp; path = CGL/src/matrix4x4.cpp; sourceTree = SOURCE_ROOT; };
+		625E36A518464486BBC460A3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/lodepng.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lodepng.cpp; path = src/util/lodepng.cpp; sourceTree = SOURCE_ROOT; };
+		62639F00FE5E42A4BA7701E2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = src/pathtracer/camera.h; sourceTree = SOURCE_ROOT; };
+		63F5D1B60A3E431BBAD9CB26 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/polymesh_info.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = polymesh_info.cpp; path = src/scene/collada/polymesh_info.cpp; sourceTree = SOURCE_ROOT; };
+		6A922ED74B9049D38FA1AFE2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/spot_light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = spot_light.h; path = src/scene/gl_scene/spot_light.h; sourceTree = SOURCE_ROOT; };
+		6B443D9028BD44E28C566F6B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/application.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = application.cpp; path = src/application/application.cpp; sourceTree = SOURCE_ROOT; };
+		6E0EF6222C0141D5A8A0219A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/light_info.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = light_info.h; path = src/scene/collada/light_info.h; sourceTree = SOURCE_ROOT; };
+		6F28B2D0BE93483BA1BC840B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = CGL/src/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		732E45068A324F35ABAB2799 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = CGL/deps/glfw/src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		7441F50BCDF04276BA0200E8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = CGL/deps/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		75080318AF134489AB6B5163 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		75C58D8825774003B610657E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector4D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector4D.cpp; path = CGL/src/vector4D.cpp; sourceTree = SOURCE_ROOT; };
+		77ED0F03A2114C21921F9907 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_tables.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_tables.cpp; path = src/imgui/imgui_tables.cpp; sourceTree = SOURCE_ROOT; };
+		7A3F2B5A996A4BB69D204E3C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/halfEdgeMesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = halfEdgeMesh.h; path = src/util/halfEdgeMesh.h; sourceTree = SOURCE_ROOT; };
+		7C5FF7859337460BB6725237 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = CGL/deps/glfw/src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		7CFADD9392744BFA8B92B678 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = CGL/deps/glfw/src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		7D2436C6275A448EAD9122CC /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/application/main.cpp; sourceTree = SOURCE_ROOT; };
+		7E4B58B06EDB486E827B272F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/glewinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glewinfo.c; path = CGL/deps/glew/src/glewinfo.c; sourceTree = SOURCE_ROOT; };
+		7E8A4B4620634C0590FE7FF3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = CGL/deps/glfw/src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		7EDF8BF46DE442A5A9239BCD /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/point_light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = point_light.h; path = src/scene/gl_scene/point_light.h; sourceTree = SOURCE_ROOT; };
+		8014588960E04964A7F8DEE0 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/halfEdgeMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = halfEdgeMesh.cpp; path = src/util/halfEdgeMesh.cpp; sourceTree = SOURCE_ROOT; };
+		828ADF3B25B541F3991E34C8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/scene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scene.h; path = src/scene/gl_scene/scene.h; sourceTree = SOURCE_ROOT; };
+		842B9863D24D479C8B0411B8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = xcode/CGL/deps/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		866BF5E108B346B89568B215 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/material_info.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = material_info.h; path = src/scene/collada/material_info.h; sourceTree = SOURCE_ROOT; };
+		86E35707FD7F497FA8050D9B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/scene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scene.cpp; path = src/scene/gl_scene/scene.cpp; sourceTree = SOURCE_ROOT; };
+		87576C15F6C54053933EF7DF /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_widgets.cpp; path = src/imgui/imgui_widgets.cpp; sourceTree = SOURCE_ROOT; };
+		8BF51B9632B14C8384875112 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh.cpp; path = src/scene/gl_scene/mesh.cpp; sourceTree = SOURCE_ROOT; };
+		8DB1543D641C4AAEA9E01FBB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color.cpp; path = CGL/src/color.cpp; sourceTree = SOURCE_ROOT; };
+		930CE4D1A0EB4F8C840C9051 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/bbox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bbox.h; path = src/scene/bbox.h; sourceTree = SOURCE_ROOT; };
+		956F6DC8217A46F6830C1279 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/advanced_bsdf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advanced_bsdf.cpp; path = src/pathtracer/advanced_bsdf.cpp; sourceTree = SOURCE_ROOT; };
+		95F8721615B64470921EE5D7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/raytraced_renderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = raytraced_renderer.cpp; path = src/pathtracer/raytraced_renderer.cpp; sourceTree = SOURCE_ROOT; };
+		98C7E3C2AE4C4460BB2ED0BB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/material_info.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = material_info.cpp; path = src/scene/collada/material_info.cpp; sourceTree = SOURCE_ROOT; };
+		9A3349C0AFA24D88B07A3496 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = CGL/deps/glfw/src/internal.h; sourceTree = SOURCE_ROOT; };
+		9B808ED1FA9F461D982C314B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/deps/glew/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9ED108B99AF843BD8A44B583 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = src/imgui/imgui_draw.cpp; sourceTree = SOURCE_ROOT; };
+		9EF68DF3A48F4BDFA7DD5CBC /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/camera_lens.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera_lens.cpp; path = src/pathtracer/camera_lens.cpp; sourceTree = SOURCE_ROOT; };
+		A11B2BE3C57447D3A2DF6853 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/pathtracer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pathtracer.h; path = src/pathtracer/pathtracer.h; sourceTree = SOURCE_ROOT; };
+		A16EF41601D04A8FA8D7F676 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/meshEdit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = meshEdit.cpp; path = src/application/meshEdit.cpp; sourceTree = SOURCE_ROOT; };
+		A23002F5D4AF4A798C0F3DE6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = CGL/deps/glfw/src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		A6F755A26748401D9A83A911 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/ray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ray.h; path = src/pathtracer/ray.h; sourceTree = SOURCE_ROOT; };
+		A8D7A0BB21B3440B9C90845A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = CGL/deps/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		AEC98B6553E04E0688F7B7C8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/visualinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = visualinfo.c; path = CGL/deps/glew/src/visualinfo.c; sourceTree = SOURCE_ROOT; };
+		B09CEC5909C1483C87E3F1E4 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/draw_style.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = draw_style.h; path = src/scene/gl_scene/draw_style.h; sourceTree = SOURCE_ROOT; };
+		B63E84D7EE16426788A7EAC5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/lodepng.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lodepng.cpp; path = CGL/src/lodepng.cpp; sourceTree = SOURCE_ROOT; };
+		B8B9B1E799054E269E05F1F9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/mutablePriorityQueue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mutablePriorityQueue.h; path = src/util/mutablePriorityQueue.h; sourceTree = SOURCE_ROOT; };
+		BA13662EBF3442AAA018558F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/aggregate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = aggregate.h; path = src/scene/aggregate.h; sourceTree = SOURCE_ROOT; };
+		BAEE4E4DA88F4ABFB4F98C55 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/sphere_drawing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sphere_drawing.h; path = src/util/sphere_drawing.h; sourceTree = SOURCE_ROOT; };
+		BCE4397C382548F18C9A87AA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = image.h; path = src/util/image.h; sourceTree = SOURCE_ROOT; };
+		BD8865A353FD4A8FA2F067E9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = src/imgui/imgui.cpp; sourceTree = SOURCE_ROOT; };
+		C2C75B83DCBE463DAF0A4656 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = CGL/deps/glfw/src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		C463710435B14694AEA7D645 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh_view.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh_view.h; path = src/scene/gl_scene/mesh_view.h; sourceTree = SOURCE_ROOT; };
+		C5BF1B35259F440BAFE818A2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/quaternion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quaternion.cpp; path = CGL/src/quaternion.cpp; sourceTree = SOURCE_ROOT; };
+		C5E3CDD8ED074662BC01A4A7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = CGL/deps/glfw/src/context.c; sourceTree = SOURCE_ROOT; };
+		C76376D83FB54749AD693ACF /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1BDE8DD6D6412BBD2DC404 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/backends/imgui_impl_opengl2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_opengl2.cpp; path = src/imgui/backends/imgui_impl_opengl2.cpp; sourceTree = SOURCE_ROOT; };
+		CD7D1530BF084A1FA1B19181 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/primitive.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = primitive.h; path = src/scene/primitive.h; sourceTree = SOURCE_ROOT; };
+		D03728610ECD4763BB026F12 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/triangle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = triangle.h; path = src/scene/triangle.h; sourceTree = SOURCE_ROOT; };
+		D1A9D29DBA3A453AA6FAAD75 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = CGL/deps/glfw/src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		D29BB0649896465196818671 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/backends/imgui_impl_glfw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_glfw.cpp; path = src/imgui/backends/imgui_impl_glfw.cpp; sourceTree = SOURCE_ROOT; };
+		D3D0F7691BB942F286BAE48A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = CGL/deps/glfw/src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		D56874B93C874E81AFB96A1B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/ambient_light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ambient_light.h; path = src/scene/gl_scene/ambient_light.h; sourceTree = SOURCE_ROOT; };
+		D598D45D78C24C90AB062C63 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/area_light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = area_light.h; path = src/scene/gl_scene/area_light.h; sourceTree = SOURCE_ROOT; };
+		D62D99B739F943A39E567218 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector3D.cpp; path = CGL/src/vector3D.cpp; sourceTree = SOURCE_ROOT; };
+		D80F363F034F4C2890E008A8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/sphere_info.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sphere_info.h; path = src/scene/collada/sphere_info.h; sourceTree = SOURCE_ROOT; };
+		D9BE0E1E962E49EC894D696B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/matrix3x3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix3x3.cpp; path = CGL/src/matrix3x3.cpp; sourceTree = SOURCE_ROOT; };
+		DA92AD36D069479AB624B512 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = CGL/deps/glfw/src/input.c; sourceTree = SOURCE_ROOT; };
+		DDEA7C76898B4BF5B6765853 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = CGL/deps/glfw/src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		DF938FAC840C48FDB80A57CD /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/object.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = object.h; path = src/scene/object.h; sourceTree = SOURCE_ROOT; };
+		E773F83159BE4C9A909E1A70 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/work_queue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = work_queue.h; path = src/util/work_queue.h; sourceTree = SOURCE_ROOT; };
+		EEEB83096BD8470BB7F81E22 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/path.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = path.cpp; path = CGL/src/path.cpp; sourceTree = SOURCE_ROOT; };
+		F37EE6AFDE42461381486530 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/random_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = random_util.h; path = src/util/random_util.h; sourceTree = SOURCE_ROOT; };
+		F418D297A2AC470085595D6A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = CGL/deps/glfw/src/monitor.c; sourceTree = SOURCE_ROOT; };
+		F4318C1997B74A04A22D65B5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector2D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector2D.cpp; path = CGL/src/vector2D.cpp; sourceTree = SOURCE_ROOT; };
+		F80BD64631B74B88A27B4366 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = material.h; path = src/scene/gl_scene/material.h; sourceTree = SOURCE_ROOT; };
+		F9EA79E847BB4477868DD7EF /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = CGL/deps/glfw/src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		FB14075C170B422E948F05AA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = CGL/deps/glfw/src/init.c; sourceTree = SOURCE_ROOT; };
+		FB88BBAB3BB746979C7062DB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = light.h; path = src/scene/light.h; sourceTree = SOURCE_ROOT; };
+		FE2AB056C37C49EDB2D95F17 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/application.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = application.h; path = src/application/application.h; sourceTree = SOURCE_ROOT; };
+		FF225A17B13E4473A7AEC270 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/sampler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sampler.cpp; path = src/pathtracer/sampler.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4181CA8D5D9F497484BE0FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63151F65CD014EA89AC88926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA4C2D76F564900B852DD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9B56E846834EC1BA634328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0482D1132BDD40FEA873F449 /* CGL */ = {
+			isa = PBXGroup;
+			children = (
+				FE80C91FE2CC4275B2E4274E /* Source Files */,
+				75080318AF134489AB6B5163 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/CMakeLists.txt */,
+			);
+			name = CGL;
+			sourceTree = "<group>";
+		};
+		05187744FD324F7F8D625AD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				285A23425C7C4E3A9C4840FD /* CGL */,
+				03D293930E7349AEA2A472B5 /* glew */,
+				C76376D83FB54749AD693ACF /* glfw */,
+				1D4E92BE1B4B4045963033BA /* pathtracer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CB8856CAA454B3A837173AD /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE2AB056C37C49EDB2D95F17 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/application.h */,
+				453376F60CC0468FAA6CBFEE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/meshEdit.h */,
+				4A86C35E394C4C1D93AA352C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/renderer.h */,
+				042D1BA407194758B4F7925F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/bsdf.h */,
+				62639F00FE5E42A4BA7701E2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/camera.h */,
+				13D8FCEA354C4281A77CA32F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/intersection.h */,
+				A11B2BE3C57447D3A2DF6853 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/pathtracer.h */,
+				A6F755A26748401D9A83A911 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/ray.h */,
+				06BDA88AC8F743FF9BA422F0 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/raytraced_renderer.h */,
+				40DC2552C18D48B497EDADC2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/sampler.h */,
+				BA13662EBF3442AAA018558F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/aggregate.h */,
+				930CE4D1A0EB4F8C840C9051 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/bbox.h */,
+				406D2D781D144A18853B5259 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/bvh.h */,
+				1C41826439794C9CBDE261BE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/camera_info.h */,
+				25C76C6DAD89406581ED96AE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada.h */,
+				3DD9F3C2E32C447D9A4EC6D5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada_info.h */,
+				6E0EF6222C0141D5A8A0219A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/light_info.h */,
+				866BF5E108B346B89568B215 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/material_info.h */,
+				3EB734376E8C44C98C1A9B21 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/polymesh_info.h */,
+				D80F363F034F4C2890E008A8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/sphere_info.h */,
+				1ED02012B43C4F0DB3ABBD5F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/environment_light.h */,
+				D56874B93C874E81AFB96A1B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/ambient_light.h */,
+				D598D45D78C24C90AB062C63 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/area_light.h */,
+				5D5647F3310B4AFFBEC19281 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/directional_light.h */,
+				B09CEC5909C1483C87E3F1E4 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/draw_style.h */,
+				17A1F0096F604DAD8457AAC3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/environment_light.h */,
+				F80BD64631B74B88A27B4366 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/material.h */,
+				3CCCD89D10674F0A86FB2245 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh.h */,
+				C463710435B14694AEA7D645 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh_view.h */,
+				7EDF8BF46DE442A5A9239BCD /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/point_light.h */,
+				828ADF3B25B541F3991E34C8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/scene.h */,
+				0760D79D5B80435CB218F490 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/sphere.h */,
+				6A922ED74B9049D38FA1AFE2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/spot_light.h */,
+				FB88BBAB3BB746979C7062DB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/light.h */,
+				DF938FAC840C48FDB80A57CD /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/object.h */,
+				CD7D1530BF084A1FA1B19181 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/primitive.h */,
+				0B7D7A50085948CD87BE3F12 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/scene.h */,
+				05EFE145FD204120B4C7EBF8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/sphere.h */,
+				D03728610ECD4763BB026F12 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/triangle.h */,
+				7A3F2B5A996A4BB69D204E3C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/halfEdgeMesh.h */,
+				BCE4397C382548F18C9A87AA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/image.h */,
+				03BF3E3942D4421F87FE3954 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/lodepng.h */,
+				B8B9B1E799054E269E05F1F9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/mutablePriorityQueue.h */,
+				F37EE6AFDE42461381486530 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/random_util.h */,
+				BAEE4E4DA88F4ABFB4F98C55 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/sphere_drawing.h */,
+				E773F83159BE4C9A909E1A70 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/work_queue.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		39217E12E6B2453BA1400F32 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B443D9028BD44E28C566F6B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/application.cpp */,
+				7D2436C6275A448EAD9122CC /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/main.cpp */,
+				A16EF41601D04A8FA8D7F676 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/meshEdit.cpp */,
+				3F410AA2C9C341FB8ADA71BB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/visual_debugger.cpp */,
+				D29BB0649896465196818671 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/backends/imgui_impl_glfw.cpp */,
+				CA1BDE8DD6D6412BBD2DC404 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/backends/imgui_impl_opengl2.cpp */,
+				BD8865A353FD4A8FA2F067E9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui.cpp */,
+				9ED108B99AF843BD8A44B583 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_draw.cpp */,
+				77ED0F03A2114C21921F9907 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_tables.cpp */,
+				87576C15F6C54053933EF7DF /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_widgets.cpp */,
+				956F6DC8217A46F6830C1279 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/advanced_bsdf.cpp */,
+				9EF68DF3A48F4BDFA7DD5CBC /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/camera_lens.cpp */,
+				95F8721615B64470921EE5D7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/raytraced_renderer.cpp */,
+				FF225A17B13E4473A7AEC270 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/sampler.cpp */,
+				164DFBE6290E434EBF890C9C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/camera_info.cpp */,
+				5268FD00D57B486D96CA4D75 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada.cpp */,
+				07C8C5DC0A4C4306903C4396 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/light_info.cpp */,
+				98C7E3C2AE4C4460BB2ED0BB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/material_info.cpp */,
+				63F5D1B60A3E431BBAD9CB26 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/polymesh_info.cpp */,
+				1B2D806378004E1B9E31B7FF /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/sphere_info.cpp */,
+				0891E6764E5A4FDF8F9934EE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/environment_light.cpp */,
+				8BF51B9632B14C8384875112 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh.cpp */,
+				86E35707FD7F497FA8050D9B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/scene.cpp */,
+				1DC2DDFF6B414DC08271973D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/sphere.cpp */,
+				37243541D6214DD595ABF256 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/object.cpp */,
+				8014588960E04964A7F8DEE0 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/halfEdgeMesh.cpp */,
+				625E36A518464486BBC460A3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/lodepng.cpp */,
+				1F44F630B575469CA7710E4B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/sphere_drawing.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		398DC38695A04E169EBB9F60 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D64825D95AE4B129C0CBBE1 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/glew.c */,
+				7E4B58B06EDB486E827B272F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/glewinfo.c */,
+				AEC98B6553E04E0688F7B7C8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/visualinfo.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5297C378549A4EDD989693F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		700391C4362B472BABEE072B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C962C47397BA4267A18CBC8C /* CMake Rules */,
+				2CF03D9165744B288C2F1DFE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		7735AFF35A214792BA23D694 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				823C13D85CC1449691BA48FA /* CMake Rules */,
+				56B825E0239048289FE7CC53 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		7D06FA7A17444AA4B5B196B4 /* pathtracer */ = {
+			isa = PBXGroup;
+			children = (
+				39217E12E6B2453BA1400F32 /* Source Files */,
+				0CB8856CAA454B3A837173AD /* Header Files */,
+				50B93D1727EB4AC69D99D607 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CMakeLists.txt */,
+			);
+			name = pathtracer;
+			sourceTree = "<group>";
+		};
+		823C13D85CC1449691BA48FA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B65600796BA14F78AA60DF4B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9EA79E847BB4477868DD7EF /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_init.m */,
+				1A38D25A60BD47C48D8CD06D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.m */,
+				DDEA7C76898B4BF5B6765853 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_monitor.m */,
+				7E8A4B4620634C0590FE7FF3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_time.c */,
+				3378BFDA37344D71A86C103D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_window.m */,
+				C5E3CDD8ED074662BC01A4A7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/context.c */,
+				D3D0F7691BB942F286BAE48A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/egl_context.c */,
+				FB14075C170B422E948F05AA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/init.c */,
+				DA92AD36D069479AB624B512 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/input.c */,
+				F418D297A2AC470085595D6A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/monitor.c */,
+				38CA3EAF5470467380E743E6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/nsgl_context.m */,
+				A23002F5D4AF4A798C0F3DE6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/osmesa_context.c */,
+				7CFADD9392744BFA8B92B678 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/posix_thread.c */,
+				576B40A762B44284BCA2856C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/vulkan.c */,
+				1E9536514A854A20831A395B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C962C47397BA4267A18CBC8C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DE8E4F325FD4498085A7375D /* glew */ = {
+			isa = PBXGroup;
+			children = (
+				398DC38695A04E169EBB9F60 /* Source Files */,
+				9B808ED1FA9F461D982C314B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/CMakeLists.txt */,
+			);
+			name = glew;
+			sourceTree = "<group>";
+		};
+		E4D3E5A5B4AD4B6AA73D3BB2 = {
+			isa = PBXGroup;
+			children = (
+				7D06FA7A17444AA4B5B196B4 /* pathtracer */,
+				700391C4362B472BABEE072B /* ALL_BUILD */,
+				0482D1132BDD40FEA873F449 /* CGL */,
+				DE8E4F325FD4498085A7375D /* glew */,
+				F06700EAAC7849BDAC1B0070 /* GLFW3 */,
+				05187744FD324F7F8D625AD3 /* Products */,
+				5297C378549A4EDD989693F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7D5023E1554F459988BEEF /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				FF51D5660E834B65A19501A1 /* Header Files */,
+				B65600796BA14F78AA60DF4B /* Source Files */,
+				39E2E1ADD23D4D00B27D477E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		F06700EAAC7849BDAC1B0070 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				7735AFF35A214792BA23D694 /* uninstall */,
+				ED7D5023E1554F459988BEEF /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		FE80C91FE2CC4275B2E4274E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4028DD7041F64781B316A72E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/base64.cpp */,
+				8DB1543D641C4AAEA9E01FBB /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/color.cpp */,
+				3336B29209BF4FAF998911E6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/complex.cpp */,
+				B63E84D7EE16426788A7EAC5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/lodepng.cpp */,
+				D9BE0E1E962E49EC894D696B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/matrix3x3.cpp */,
+				61074E0997B7419DA8D87EC2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/matrix4x4.cpp */,
+				1C3E01036FF54C258D089F4E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/osdfont.cpp */,
+				46A9D848FD1C4B9C828BAD2D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/osdtext.cpp */,
+				EEEB83096BD8470BB7F81E22 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/path.cpp */,
+				C5BF1B35259F440BAFE818A2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/quaternion.cpp */,
+				6F28B2D0BE93483BA1BC840B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/tinyxml2.cpp */,
+				F4318C1997B74A04A22D65B5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector2D.cpp */,
+				D62D99B739F943A39E567218 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector3D.cpp */,
+				75C58D8825774003B610657E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector4D.cpp */,
+				3942E9E879E04C50BFEAC7E7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/viewer.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FF51D5660E834B65A19501A1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7441F50BCDF04276BA0200E8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3.h */,
+				A8D7A0BB21B3440B9C90845A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3native.h */,
+				4F06D35E80134296AAB20AF3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.h */,
+				D1A9D29DBA3A453AA6FAAD75 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_platform.h */,
+				C2C75B83DCBE463DAF0A4656 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/egl_context.h */,
+				9A3349C0AFA24D88B07A3496 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/internal.h */,
+				041172F3FA5241009DEE5E4F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/mappings.h */,
+				7C5FF7859337460BB6725237 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/nsgl_context.h */,
+				732E45068A324F35ABAB2799 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/osmesa_context.h */,
+				3CB95ACF0B284C98829DF22F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/posix_thread.h */,
+				842B9863D24D479C8B0411B8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src/glfw_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EB715B39E8044A88AFAE426 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F252782626349A1901F3561 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				992C5FE8778C4E68A2B95EC6 /* Sources */,
+				6BA4C2D76F564900B852DD3B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = C76376D83FB54749AD693ACF /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC8BCC91D06E4B8CA9DA6D34 /* pathtracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC79DB44F50D4655BC95248A /* Build configuration list for PBXNativeTarget "pathtracer" */;
+			buildPhases = (
+				5999E36FB1F540E8A7C858C1 /* Sources */,
+				4181CA8D5D9F497484BE0FC3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8CF63C6F4B647CAA2631DA5 /* PBXTargetDependency */,
+				56E99DE6BEAA45BFB63AFC9D /* PBXTargetDependency */,
+				8956F88FE6F84FFEB787DC20 /* PBXTargetDependency */,
+				E9D6B603ED1746A2A4363F99 /* PBXTargetDependency */,
+			);
+			name = pathtracer;
+			productName = pathtracer;
+			productReference = 1D4E92BE1B4B4045963033BA /* pathtracer */;
+			productType = "com.apple.product-type.tool";
+		};
+		CD04305504FF45F191A169E2 /* CGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8073210681A41CEAC347460 /* Build configuration list for PBXNativeTarget "CGL" */;
+			buildPhases = (
+				181461FDEF82436682FE9B27 /* Sources */,
+				FF9B56E846834EC1BA634328 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9755FE35D980402AB774B275 /* PBXTargetDependency */,
+				05BAC85268BA45DCB27B604D /* PBXTargetDependency */,
+			);
+			name = CGL;
+			productName = CGL;
+			productReference = 285A23425C7C4E3A9C4840FD /* CGL */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE32D02E947B4EFAB0A4D3CE /* glew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD102782DEEC4BF5AF72B221 /* Build configuration list for PBXNativeTarget "glew" */;
+			buildPhases = (
+				11A126EEF5CB4EFEB14B5A2A /* Sources */,
+				63151F65CD014EA89AC88926 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glew;
+			productName = glew;
+			productReference = 03D293930E7349AEA2A472B5 /* glew */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E37E583F7E4E4E95D4569E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1210;
+			};
+			buildConfigurationList = CAE809A778A547189D558E32 /* Build configuration list for PBXProject "Assignment3" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3673A2A347A0412BB22DC9E1 /* Debug */,
+				3C6AA7952BCA44D29C05400B /* Release */,
+				0C16A87E9CB041A7B6FD7077 /* MinSizeRel */,
+				9C0FFBB7712B4D808CCB8856 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E4D3E5A5B4AD4B6AA73D3BB2;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				6F53066F05B645519739261E /* ALL_BUILD */,
+				CD04305504FF45F191A169E2 /* CGL */,
+				8860EB2F0FC3406793A91862 /* ZERO_CHECK */,
+				EE32D02E947B4EFAB0A4D3CE /* glew */,
+				9EB715B39E8044A88AFAE426 /* glfw */,
+				7DFC0C77E2CE4E3687731FE1 /* install */,
+				AC8BCC91D06E4B8CA9DA6D34 /* pathtracer */,
+				0A39B9E90F0C44BEB5342DB9 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B8F8D605BF5F9E381359C91 /* Generate CGL/deps/glfw/CMakeFiles/uninstall */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CGL/deps/glfw/CMakeFiles/uninstall";
+			outputPaths = (
+"/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/CMakeFiles/uninstall"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -P /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -P /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -P /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -P /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C8B9B9628600475EB03CBF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4F80012A3E420904EEC210FD /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E9C38B2DAA3D74AFF1B27D52 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  make -f /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  make -f /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  make -f /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode
+  make -f /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A126EEF5CB4EFEB14B5A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA495A592D74236A412F2D1 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/glew.c */,
+				A6AE332B6D60411485CA7D01 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/glewinfo.c */,
+				30D8DA3CCEAB4E169E032FE7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/src/visualinfo.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181461FDEF82436682FE9B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B46DB953FC246A59BAD7CE5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/base64.cpp */,
+				3106CF4DCFF64538B9C0642E /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/color.cpp */,
+				5EFF0105FBB546549C50BC57 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/complex.cpp */,
+				BBC6A047723E4F36B739A96D /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/lodepng.cpp */,
+				956C58768562444D90B45226 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/matrix3x3.cpp */,
+				46AA6FDA6BEA4EB082ABE158 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/matrix4x4.cpp */,
+				748A7C5793BC475BAC37E7A5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/osdfont.cpp */,
+				6DE89685E5F04B40967BB8BA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/osdtext.cpp */,
+				79D16B7109C24D4BB4C09311 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/path.cpp */,
+				177BD5CCEFAC4A3489EEFE0C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/quaternion.cpp */,
+				8A770BD76E51445C865408A7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/tinyxml2.cpp */,
+				01DC478708024472B0E63D0B /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector2D.cpp */,
+				3604E3BBDED54BD7B936EEE2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector3D.cpp */,
+				F996CFCCCACC4D318D858397 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/vector4D.cpp */,
+				D14C626AA3E640C89C89E8FE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/src/viewer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5999E36FB1F540E8A7C858C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0F2A80E7DD4B8D91C1C771 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/application.cpp */,
+				D9557E90F1FE41F8BE2F9E8C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/main.cpp */,
+				2521EE6105CE480E859B2679 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/meshEdit.cpp */,
+				8F12C45537484A88A8F475BE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/application/visual_debugger.cpp */,
+				9E3F0F4E8A23437394C13B68 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/backends/imgui_impl_glfw.cpp */,
+				23CA120E8A554F3CA890A809 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/backends/imgui_impl_opengl2.cpp */,
+				FFA61C8D01B34AD9AB3B18EF /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui.cpp */,
+				FF1D43318AF145EA8F6B3501 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_draw.cpp */,
+				A64C41746E0B4BC4AFB401CE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_tables.cpp */,
+				53E294C90AB34740A719FBAA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/imgui/imgui_widgets.cpp */,
+				326515F6484048218EDB63F7 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/advanced_bsdf.cpp */,
+				64852443F8D64969BA4FF0C8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/camera_lens.cpp */,
+				A4906CC1CFE44637B9DEDAB6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/raytraced_renderer.cpp */,
+				FC93F8F16F5F4C5F916A6CB3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/pathtracer/sampler.cpp */,
+				C6C4BF6792A24A99A6B303F3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/camera_info.cpp */,
+				1074FED7CB2344878B846F86 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/collada.cpp */,
+				A3197CF605D34C77BF7672BA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/light_info.cpp */,
+				26D984A019C64195B52B6B5F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/material_info.cpp */,
+				A3D81D476DD7421595A850D1 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/polymesh_info.cpp */,
+				CDC1E1C2B36C42639A3858C9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/collada/sphere_info.cpp */,
+				5C456FE2D2FE4F7398879A54 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/environment_light.cpp */,
+				F5D525C86C96451FB82FE5A3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/mesh.cpp */,
+				3A4D4BC919CC49F4912AD2D6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/scene.cpp */,
+				32C5D76237E34B81AE21A2BA /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/gl_scene/sphere.cpp */,
+				FB00D7A4567541F0B7ACE443 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/scene/object.cpp */,
+				F77C47C2767446B0B233E2D8 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/halfEdgeMesh.cpp */,
+				3A1686616CA8486F9EAF1157 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/lodepng.cpp */,
+				8F1ECF35B2F0423385D28979 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src/util/sphere_drawing.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992C5FE8778C4E68A2B95EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1363648BAE4B078061970A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_init.m */,
+				D2B0E3C971F04728B36E5C06 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.m */,
+				54B2DC3FF54847F0A8DCC73C /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_monitor.m */,
+				86097A826D494A5497681B79 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_time.c */,
+				884711019801459199A0137A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/cocoa_window.m */,
+				BEE890A4BDEB47229B6C0669 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/context.c */,
+				B3112B95A3E346A6A8D11041 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/egl_context.c */,
+				1BFAEACE0B384722A518113A /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/init.c */,
+				D117C2592FFF48E9B21CDFCE /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/input.c */,
+				7A4E5873543143138A4ABEF5 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/monitor.c */,
+				E17288905FBD4B2FA6C071A3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/nsgl_context.m */,
+				F05C2518FED544E8A9D08B22 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/osmesa_context.c */,
+				45CC539965EC4E98AF8BFDED /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/posix_thread.c */,
+				11B4B84DDD384F8787EA0803 /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/vulkan.c */,
+				2B43AD2A547C4B72B341D80F /* /Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05BAC85268BA45DCB27B604D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EB715B39E8044A88AFAE426 /* glfw */;
+			targetProxy = 282F813847EA4CA6A6A0D6D2 /* PBXContainerItemProxy */;
+		};
+		0B09EF077251493E9BFCBCD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8BCC91D06E4B8CA9DA6D34 /* pathtracer */;
+			targetProxy = BB8B4D2C04834F04AF3CC0D7 /* PBXContainerItemProxy */;
+		};
+		0B1629FC02F946D293AA1356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F53066F05B645519739261E /* ALL_BUILD */;
+			targetProxy = AF547969ADD24B5DA6CB1ACD /* PBXContainerItemProxy */;
+		};
+		383C03036CEF4FA0B06B1A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EB715B39E8044A88AFAE426 /* glfw */;
+			targetProxy = 5A60A6C69E964567BD16AF58 /* PBXContainerItemProxy */;
+		};
+		44C7B46FB2C440D2AD6FFCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD04305504FF45F191A169E2 /* CGL */;
+			targetProxy = FC7DA71E621E4825B2C03491 /* PBXContainerItemProxy */;
+		};
+		56E99DE6BEAA45BFB63AFC9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE32D02E947B4EFAB0A4D3CE /* glew */;
+			targetProxy = C4C3FED969F64034B30A4922 /* PBXContainerItemProxy */;
+		};
+		8956F88FE6F84FFEB787DC20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EB715B39E8044A88AFAE426 /* glfw */;
+			targetProxy = 35C9E75C0B9E4248BA9703DF /* PBXContainerItemProxy */;
+		};
+		9755FE35D980402AB774B275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE32D02E947B4EFAB0A4D3CE /* glew */;
+			targetProxy = BEC14FFC2C0F4EB0A8127837 /* PBXContainerItemProxy */;
+		};
+		A8CF63C6F4B647CAA2631DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD04305504FF45F191A169E2 /* CGL */;
+			targetProxy = 5FD96F8D0300406A81526C83 /* PBXContainerItemProxy */;
+		};
+		A916E29D310C42FE89F65FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8860EB2F0FC3406793A91862 /* ZERO_CHECK */;
+			targetProxy = C51BEA272ED94008B4927A63 /* PBXContainerItemProxy */;
+		};
+		C9EF6125BFB648A8A63BAAF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE32D02E947B4EFAB0A4D3CE /* glew */;
+			targetProxy = 5FE39037EA1E445AA3B1309A /* PBXContainerItemProxy */;
+		};
+		E9D6B603ED1746A2A4363F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8860EB2F0FC3406793A91862 /* ZERO_CHECK */;
+			targetProxy = 50B5CED2D0DF4DB1B8536836 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0601A3EA0C4443669180A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/./src/imgui","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/./src/imgui/backends","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include/CGL","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64 -fPIC      -mavx2     ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/Debug/libCGL.a","-framework OpenGL","-framework OpenGL","-lpt31",/usr/local/lib/libfreetype.dylib,"/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glew/Debug/libglew.a","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src/Debug/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pathtracer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0D4EC5F16DDE4DBD921A385D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		159D40B36A874F6F9D0ADF15 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		1F77F03E65984225B5323BCF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2ADF9D14D1FB4886AEAD4E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2D8BC6A99F264B879EE06EDF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include/CGL",/usr/local/include/freetype2,"/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64 -fPIC      -mavx2     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		340478A6B61843CB8510B4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3904D92B69B947CDB228AB04 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		452817C5607643CBA7B4539B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/./src/imgui","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/./src/imgui/backends","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include/CGL","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64 -fPIC      -mavx2      -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/Release/libCGL.a","-framework OpenGL","-framework OpenGL","-lpt31",/usr/local/lib/libfreetype.dylib,"/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glew/Release/libglew.a","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src/Release/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pathtracer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4655FB75DAAF40D8B27075CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4AC6886AAD354C7D8FBD9260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4F94ECB4889146DFAA4DE25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		54988B6113854C43B83999D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		550EA3A228764706854735AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		575E8876456A4DF18C68449C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include/CGL",/usr/local/include/freetype2,"/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64 -fPIC      -mavx2    ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		57BCAE661BF94CE2B9B1B6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include/CGL",/usr/local/include/freetype2,"/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64 -fPIC      -mavx2     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5BA831D1C3EF4306A624B90E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5E8EA8435A2C42F7A7D9E8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		61FB348D92F3439992E9745D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC        -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		70B84EF7C4394CC684D21870 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/./src/imgui","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/./src/imgui/backends","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include/CGL","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64 -fPIC      -mavx2         -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/RelWithDebInfo/libCGL.a","-framework OpenGL","-framework OpenGL","-lpt31",/usr/local/lib/libfreetype.dylib,"/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glew/RelWithDebInfo/libglew.a","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src/RelWithDebInfo/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pathtracer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		75BEFD99F88B46688AA57028 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include/CGL",/usr/local/include/freetype2,"/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64 -fPIC      -mavx2        -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7B27910451514DF0B52D1127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC    -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7B9C2BA0F43B4396B3C523A7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		80CC6591ADF846B18FC8CE5C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		917E2A40C9374FA78FDF62EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/build";
+			};
+			name = Debug;
+		};
+		937DD7E26ACB491788138883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/build";
+			};
+			name = Release;
+		};
+		98F59B41472C48C5A7F528D1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A550EF1E690749C28B6C8B09 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B12BF8ABE16046B1AE2A5743 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B5C2A198BA3E463BABBE4280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC    ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BEC0C145C5F143DF9C900E00 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C4EC2BA32D8A4A25AC54D02E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/src","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glew/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/./src/imgui","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/./src/imgui/backends","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/include/CGL","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/libs/x64_apple","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64 -fPIC      -mavx2      -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/MinSizeRel/libCGL.a","-framework OpenGL","-framework OpenGL","-lpt31",/usr/local/lib/libfreetype.dylib,"/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glew/MinSizeRel/libglew.a","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src/MinSizeRel/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pathtracer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E42C0B9AEAE3414DB9AE32A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC        -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EB9D652845824054B39AE07C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EF4C38388A49417BBD5C737B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F4EF7E77F12A498599131B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/CGL/deps/glfw/src","/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/p3_2-pathtracer-current/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46CE8958C1FA43CDB91220B9 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4655FB75DAAF40D8B27075CF /* Debug */,
+				5E8EA8435A2C42F7A7D9E8BA /* Release */,
+				EB9D652845824054B39AE07C /* MinSizeRel */,
+				A550EF1E690749C28B6C8B09 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		48D6504A28DC4276838FDC62 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550EA3A228764706854735AE /* Debug */,
+				2ADF9D14D1FB4886AEAD4E98 /* Release */,
+				EF4C38388A49417BBD5C737B /* MinSizeRel */,
+				B12BF8ABE16046B1AE2A5743 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F252782626349A1901F3561 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B27910451514DF0B52D1127 /* Debug */,
+				F4EF7E77F12A498599131B35 /* Release */,
+				3904D92B69B947CDB228AB04 /* MinSizeRel */,
+				E42C0B9AEAE3414DB9AE32A4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		64E4EB2A5B3C4DD1B3A2A490 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54988B6113854C43B83999D0 /* Debug */,
+				340478A6B61843CB8510B4CC /* Release */,
+				1F77F03E65984225B5323BCF /* MinSizeRel */,
+				5BA831D1C3EF4306A624B90E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6E0D4B9759B94E63BEAFA9B8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4EC5F16DDE4DBD921A385D /* Debug */,
+				4AC6886AAD354C7D8FBD9260 /* Release */,
+				BEC0C145C5F143DF9C900E00 /* MinSizeRel */,
+				80CC6591ADF846B18FC8CE5C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8073210681A41CEAC347460 /* Build configuration list for PBXNativeTarget "CGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575E8876456A4DF18C68449C /* Debug */,
+				57BCAE661BF94CE2B9B1B6BE /* Release */,
+				2D8BC6A99F264B879EE06EDF /* MinSizeRel */,
+				75BEFD99F88B46688AA57028 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CAE809A778A547189D558E32 /* Build configuration list for PBXProject "Assignment3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917E2A40C9374FA78FDF62EF /* Debug */,
+				937DD7E26ACB491788138883 /* Release */,
+				7B9C2BA0F43B4396B3C523A7 /* MinSizeRel */,
+				159D40B36A874F6F9D0ADF15 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DD102782DEEC4BF5AF72B221 /* Build configuration list for PBXNativeTarget "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C2A198BA3E463BABBE4280 /* Debug */,
+				4F94ECB4889146DFAA4DE25D /* Release */,
+				98F59B41472C48C5A7F528D1 /* MinSizeRel */,
+				61FB348D92F3439992E9745D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC79DB44F50D4655BC95248A /* Build configuration list for PBXNativeTarget "pathtracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0601A3EA0C4443669180A0E6 /* Debug */,
+				452817C5607643CBA7B4539B /* Release */,
+				C4EC2BA32D8A4A25AC54D02E /* MinSizeRel */,
+				70B84EF7C4394CC684D21870 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E37E583F7E4E4E95D4569E /* Project object */;
+}
